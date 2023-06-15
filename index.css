@@ -1,0 +1,270 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    overflow:scroll;
+
+    background-color: aliceblue;
+}
+.flex-div{
+    display:flex;
+    justify-content: space-between;
+    background: #fff;
+    z-index: 0;
+    top: 0;
+    height: 103px;
+
+    box-shadow: 0 0 10px;
+}
+nav{
+    position: sticky;
+  
+    padding: 10px,2%;
+
+}
+.right-nav img{
+
+    width: 35px;
+    margin: 20px;
+    cursor: pointer;
+
+}
+.right-nav .user-icon {
+    width: 50px;
+border-radius: 50%;
+margin-top: 40px;
+}
+.left-nav{
+margin: 10px;
+}
+.logo-icon{
+    cursor: pointer;
+
+    margin-left: 33px;
+    margin-top: 12px;
+}
+.container{
+    display: flex;
+}
+
+.middle-nav{
+    display: flex;
+   /* background-color: red; */
+
+    justify-content: space-between;
+}
+.search-box{
+    border-radius: 25px;
+   display: flex;
+height: 43px;
+   margin-top: 43px;
+}
+.search-box input{
+    width: 400px;
+    border-radius: 25px;
+/* margin-top: -2px; */
+padding: 5px;
+border: 0;
+height: 33px;
+outline: 0;
+/* background: transparent; */
+}
+.click-search-icon{
+    width: 30px;
+    height: 35px;
+    margin: 5px;
+    cursor: pointer;
+
+}
+.mice-icon{
+    margin-left: 30px;
+    width: 50px;
+    cursor: pointer;
+    height: 43px;
+    margin-top: 44px;
+}
+.click-staus{
+    border:5px solid rgb(44, 44, 239) ;
+}
+
+.side-bar{
+    margin: 1px;
+background-color: #fff;  
+width: 15%;  
+/* display: flex; */
+height: 100vh;
+/* position: fixed; */
+}
+.shortcut-link {
+    /* background-color: red; */
+}
+.shortcut-link a img {
+    width: 28px;
+}
+.shortcut-link a{
+    display: flex;
+    padding:10px;
+    color: black;
+    text-decoration: none;
+    /* padding-left: 32px; */
+}
+.shortcut-link p{
+    padding-left: 22px;
+    padding-top: 5px;
+}
+.shortcut-link hr{
+    width: 203px;
+    margin-left: 10px;
+}
+/* <!-- ...subscribe---part... --> */
+.subscribed-person{
+    /* display: flex; */
+margin-top: 23px;
+    /* background-color: red; */
+}
+.subscribed-person img{
+    width: 48px;
+border-radius: 50%;
+
+margin: 5px;
+}
+
+
+ h5{
+    margin-top: 30px;
+    margin-left: 39px;
+}
+
+
+.subscribed-person a{
+    display: flex;
+    /* margin-left: 62px; */
+    position: relative;
+    top: -40px;
+    color: black;
+    left: 76px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.small-side{
+    width: 5%;
+    /* color: red; */
+}
+.small-side a p{
+display: none;
+    /* width: 5%; */
+    /* color: red; */
+}
+.small-side hr{
+    
+    width: 60px;
+}
+
+.small-side h5{ display: none;}
+
+
+.small-subs  a{
+display: none;
+}
+.small-subs img{
+    width:38px;
+} 
+
+
+/* <!-- .......................main............................ --> */
+
+
+.banner-icon{
+/* background-color:red; */
+width: 85%;
+}
+
+.banner{
+    background-color: white;
+    width: 98%;margin: 10px;
+    border-radius: 10px;
+    }
+    .banner img{
+        /* background-color: greenyellow; */
+        width: 98% ;
+margin:10px 15px;
+        height: 462px;
+border-radius:10px;       }
+
+
+
+.user-video{
+    /* background-color: pink; */
+    display: grid;
+    /* width: 96%; */
+padding-left: 30px;
+    /* grid-gap: -8px; */
+  grid-row: 3px;
+    grid-template-columns: repeat(4,auto);
+}
+.click-banner-icon-change{
+width: 100%;
+
+}
+
+
+.click-banner-video-change {
+    /* width: 100%; */
+}
+
+.user-banner-icon{
+/* background-color :yellow; */
+width: 280px;
+margin: 10px;
+height: 308px;
+border-radius: 10px;
+}
+.click-user-banner-change{
+    width: 100%;
+}
+.user-humbmail-img{
+    /* background-color: greenyellow; */
+ /* margin: 5px; */
+ height: 173px;
+ border-radius: 10px;   
+}
+.user-thumbmail-img img{
+    /* background-color: greenyellow; */
+ /* margin: 5px; */
+ height: 173px;
+ border-radius: 5px;  
+background-position: center; 
+background-size: cover;
+width: 100%;
+}
+.user-account-icon{
+    /* background-color: white; */
+    width: 44px;
+    border-radius: 50%;
+    /* padding: 15px; */
+    height: 33px;
+    margin: 15px;
+    margin-top: 6px;
+}
+.user-account-icon img{
+    border-radius: 50%;
+    height: 43px;  width: 44px;
+}
+.user-thambmail-detail{
+    /* background-color: red; */
+    width: 289px;
+    height:130px;
+    position: relative;
+    left: 66px;
+    bottom: 50px;
+}
+.user-thambmail-detail p{
+font-size: 15px;
+margin: 2px;
+font-weight: 4px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.user-thambmail-detail a,span{
+    font-size: 23px;
+}
