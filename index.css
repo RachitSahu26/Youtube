@@ -268,3 +268,136 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 .user-thambmail-detail a,span{
     font-size: 23px;
 }
+/* ....................using a media query.................. */
+@media(max-width:900px){
+    .menu-icon,.shortcut-link,.subscribed-person,.banner{
+        display: none;
+    }
+
+
+.banner-icon{
+    width: 100%;
+}
+
+.user-video{
+    display: flex;
+    flex-direction: column;
+   margin-right: 133px;
+   width: 92%;
+    /* padding-left: -10px; */
+    background-color: red;
+}
+
+.user-thumbmail-img img{
+height: 205px;
+width: 129%;    
+}
+}
+
+/* ............................play video page........... */
+
+.video-container{
+    /* background-color: red; */
+    height: 100vh;
+    display: flex;margin: 10px;
+    /* justify-content: space-between; */
+}
+.left-container{
+    /* background-color: greenyellow; */
+
+    flex-basis: 135%;
+
+}
+.right-container{
+    /* flex-basis: 24%; */
+width:50% ;
+/* margin-left: 33px; */
+    background-color: yellow;
+
+}
+.main-picture{
+    background-color: red;
+
+    margin: 10px;
+    height: 70vh;
+}
+.main-picture img{
+     width: 100%;
+     border-radius: 5px;
+}
+
+.user-video-detail{
+    /* background-color:pink; */
+    height: 15vh;
+padding: 10px;
+display: flex;
+    margin: 10px;
+    
+}
+.user-video-detail a{
+     text-decoration: none;
+}
+.user-video-detail hr{
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+.like-image{
+    /* background-color: aqua; */
+    margin-left: 44px;
+width: 320px;
+margin-top: 33px;
+height: 83px;
+display: flex;
+}
+.like-image img{
+    margin: 5px;
+    margin-left: 7px;
+margin-top: 33px;
+width:35px;
+height: 33px;
+}
+.like-image p{
+    margin-top: 40px;
+}
+
+
+
+.user-icon-subscriber{
+    background-color: red;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.left-user-subscriber{
+/* background-color: greenyellow; */
+display: flex;
+ flex-basis: 75%;
+
+}
+
+.left-user-subscriber img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.left-user-subscriber h2{
+    margin-top: 23px;
+}
+.left-user-subscriber a{
+    position: relative;
+    top: 56px;
+    right: 130px;
+}
+.right-user-subscriber{
+    background-color:blueviolet;
+
+}
