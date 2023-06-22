@@ -1,0 +1,122 @@
+@media(max-width:900px){
+
+    html{
+        overflow-x: hidden;
+
+    }
+    body{
+        background-color: rgb(63, 63, 63);
+        overflow-x: hidden;
+    }
+/* ..............................nav............................ */
+.flex-div{
+    background-color: rgb(63, 63, 63);
+   width: 93%;
+    height:55px;
+}  
+
+
+.logo-icon{
+    cursor: pointer;
+    margin-left: -3px;
+    width: 95px;
+    margin-top: 4px;
+    }
+    /* .logo-icon img{ */
+
+.left-nav{
+
+}
+
+.middle-nav{
+    width: 149px;
+    /* background-color:greenyellow; */
+
+}
+.search-box {
+margin-top: 15px;
+margin-left: 110px;
+background-color:transparent;
+border: none;
+width: 33px;
+height: 30px;
+border-radius: 50%;
+}
+
+
+.search-box input {
+    display: none;
+    margin-top: 33px;
+
+}
+.click-search-icon{
+    width: 20px;
+    margin: 5px;
+    height: 20px;
+    text-align: center;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+
+
+.mice-icon{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.right-nav{
+    /* background-color:pink; */
+width: 110px;
+}
+
+
+.right-nav img{
+display: none;
+
+}
+
+.right-nav img:last-child{
+    display: block;
+    margin-top: 15px;
+width: 33px;
+margin-left: 32px;
+}
+/* .................................................main area................. */
+.container-main{
+    color: white;
+}
+.video-container{
+    background-color: red;
+    height: 246px;
+    
+    width: 90%;
+    margin: 0px;
+}
+.main-picture{
+   margin: 0%;
+height:36vh;
+}
+.main-picture img{
+    height: 246px;
+    width: 330px;
+
+
+
+
+.user-video-detail{
+    
+}
+
+
+
+
+}

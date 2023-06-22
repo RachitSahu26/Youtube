@@ -2,7 +2,7 @@
     margin: 0;padding: 0;
 }
 body{
-    overflow:scroll;
+   overflow-x: hidden;
 
     background-color: aliceblue;
 }
@@ -308,13 +308,90 @@ height: 200vh;
     flex-basis: 135%;
 
 }
+/* ............................................right container............ */
 .right-container{
     /* flex-basis: 24%; */
 width:50% ;
 /* margin-left: 33px; */
-    background-color: yellow;
+    /* background-color:greenyellow; */
+padding-right: 53px;
+height: 1000vh;
+}
+
+
+
+.video-box-area{
+    width: 111%;
+    height: 1000vh;
+     /* background-color: red; */
+padding: 10px 5px;
+display: flex;
+flex-direction: column;
 
 }
+.video-box{
+    /* background-color: pink; */
+    width: 98%;
+    margin: 5px;
+    display: flex;
+    height: 140px;
+}
+
+.video-img-box{
+    /* background-color:yellow; */
+    flex-basis: 55%;
+height: 140px;
+}
+
+
+.video-img-box img{
+    object-fit: cover;
+    width: 100%;
+    height: 140px;
+}
+
+.video-img-box-detail{
+    /* background-color:aqua; */
+    flex-basis: 45%;
+
+}
+.video-img-box-detail span, h3 {
+margin-left: 10px;
+font-size: 20px; 
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main-picture{
     /* background-color: red; */
 
@@ -495,3 +572,26 @@ margin-left: 95px;
 .like-and-dislike img p{
     padding: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
